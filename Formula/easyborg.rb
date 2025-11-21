@@ -2,9 +2,9 @@ class Easyborg < Formula
   include Language::Python::Virtualenv
 
   desc "Easyborg - Borg for Dummies"
-  homepage "https://github.com/<youruser>/easyborg"
-  url "https://files.pythonhosted.org/packages/source/e/easyborg/easyborg-0.9.1.tar.gz"
-  sha256 "9f4ac39da4646f394e2dd947e08a3650c2dd67749a4b349355bf32be54769b6c"
+  homepage "https://github.com/sebastianhaberey/easyborg"
+  url "https://files.pythonhosted.org/packages/11/de/23b768b6fabc4575d667a22f3c60d5bd900d1b0784eeb28896f11331302c/easyborg-0.9.2.tar.gz"
+  sha256 "c7c9309fea02cc39d0ad93c2c0f38e29b775a5794d9ea48ef2981ee4381c61de"
   license "MIT"
 
   depends_on "python@3.14"
