@@ -7,6 +7,9 @@ class Easyborg < Formula
   sha256 "e9570bd96070343fbaba4f64dc48554ae5d7f5cdde379933d0fc5615728652bf"
   license "MIT"
 
+  depends_on "borgbackup"
+  depends_on "fzf"
+
   depends_on "python@3.14"
 
   resource "click" do
