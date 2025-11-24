@@ -3,8 +3,8 @@ class Easyborg < Formula
 
   desc "Easyborg - Borg for Dummies"
   homepage "https://github.com/sebastianhaberey/easyborg"
-  url "https://files.pythonhosted.org/packages/ed/1c/7cf5a2e5048d3c06837fd3b08a8fd8dbf08bda57074cd4c2ce93281944bd/easyborg-0.11.1.tar.gz"
-  sha256 "32b754d4b0ea3455c6f3a58393049bcae1166020733ef7099140661a70fc92d6"
+  url "https://files.pythonhosted.org/packages/4c/3c/ec6ac3634a5674865b9141392b0c8f290bd0fa7b676beeeffddd9016dc55/easyborg-0.11.2.tar.gz"
+  sha256 "7fa9ef2a2e4e78641b575f4ed84ac61aeb6e8b3162d6771d6e90d25dad58d4de"
   license "MIT"
 
   depends_on "borgbackup"
