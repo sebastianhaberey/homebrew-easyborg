@@ -12,9 +12,9 @@ class Easyborg < Formula
   depends_on "python@3.14"
 
   bottle do
-    root_url "https://github.com/sebastianhaberey/easyborg/releases/download/v"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "085270fa5577bcdce8d35d616e0c8cd94b94bd7165669965990c666bf8bb7e60"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "106a49a49ef755fcd014773cca031522fa01052abefd19a5bbc2a2acd4d99633"
+    root_url "https://github.com/sebastianhaberey/easyborg/releases/download/v0.15.2"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "e41df5adf76da8bb83ba1fd311c55164e3638626dcbbb0c8cdbe87996c7fca6c"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "79ac9ca4986432d8154431fe80c0decf9d6bc566291484b188c74b0e436db308"
   end
 
   resource "Pygments" do
