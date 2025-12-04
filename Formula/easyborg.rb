@@ -13,8 +13,10 @@ class Easyborg < Formula
 
   bottle do
     root_url "https://github.com/sebastianhaberey/easyborg/releases/download/v0.15.2"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "e41df5adf76da8bb83ba1fd311c55164e3638626dcbbb0c8cdbe87996c7fca6c"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "79ac9ca4986432d8154431fe80c0decf9d6bc566291484b188c74b0e436db308"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "fed950a291ea705be5ba8483f41b7bd663b529140cacb1b7565002d68e9d87a3"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3fdc062036fa4f77bb6379b5b82ac5333a83bbd9298a5b1055de9585ac37d9fa"
   end
 
   resource "Pygments" do
