@@ -13,8 +13,8 @@ class Easyborg < Formula
 
   bottle do
     root_url "https://github.com/sebastianhaberey/easyborg/releases/download/v0.16.1"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "87342ea2ca2843afa786a592b70a453479092623532222ae2c19ec9e6198a1f4"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "98a5f58c4b0dd279c4e41053515269263af8c1832e7ef2f7658c522e506f90c8"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "a5cac19523dd324d60c6b0798c3a1aa5141287946a2293eedd77c463c5d2f307"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "2b3c7b9d02dc217b1f724e7e704c01ccc97efaefc00500f3a0570f9dc358484b"
   end
 
   resource "Pygments" do
@@ -43,8 +43,8 @@ class Easyborg < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/73/cb/ac7874b3e5d58441674fb70742e6c374b28b0c7cb988d37d991cde47166c/platformdirs-4.5.0-py3-none-any.whl"
-    sha256 "e578a81bb873cbb89a41fcc904c7ef523cc18284b7e3b3ccf06aca1403b7ebd3"
+    url "https://files.pythonhosted.org/packages/cb/28/3bfe2fa5a7b9c46fe7e13c97bda14c895fb10fa2ebf1d0abb90e0cea7ee1/platformdirs-4.5.1-py3-none-any.whl"
+    sha256 "d03afa3963c806a9bed9d5125c8f4cb2fdaf74a55ab60e5d59b3fde758104d31"
   end
 
   resource "rich" do
