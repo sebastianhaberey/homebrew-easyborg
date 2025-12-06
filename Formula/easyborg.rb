@@ -3,8 +3,8 @@ class Easyborg < Formula
 
   desc "Easyborg - Borg for Dummies"
   homepage "https://github.com/sebastianhaberey/easyborg"
-  url "https://files.pythonhosted.org/packages/7d/af/b8314770f5d8cb5dca6d49c268e042b81a7c178696c57c127254caa29521/easyborg-0.18.1.tar.gz"
-  sha256 "49be5ce9c3e05c2b46001ce941aab82a7d52e8314f07ab7d3c9f32d29b107767"
+  url "https://files.pythonhosted.org/packages/4e/af/59577373fd77a56d154428b67c189d03afa2faf48d576e8b0c4f2a503fa6/easyborg-0.18.2.tar.gz"
+  sha256 "49f0afd2acd7db67a180992ad7dfb8b4505668610be8d0e05cafc2a00a7c290a"
   license "MIT"
 
   depends_on "borgbackup"
@@ -12,9 +12,9 @@ class Easyborg < Formula
   depends_on "python@3.14"
 
   bottle do
-    root_url "https://github.com/sebastianhaberey/easyborg/releases/download/v0.18.1"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c48d0f5bd4fd15d495597003ad7b1fd97fe6a0ab60ba20be5e977dbefb770d86"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "95069b3d8d8c1fdd31f00dafed7698064399771dedc32f57e544a7cb553a30df"
+    root_url "https://github.com/sebastianhaberey/easyborg/releases/download/v0.18.2"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "74b6d6e36df82bc20c6a5d5dd9f769c54933706c55057dedecf0903f09cf057f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b1d654e7045d2345eefb89bccec8bb28744d7c7af1ed1e78371018b5b620923f"
   end
 
   resource "Pygments" do
